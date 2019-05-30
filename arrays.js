@@ -12,3 +12,7 @@ function destructivelyAddElementToEndOfArray(array, element) {
  array.push(element);
  return array
 }
+{
+  array.unshift(element);
+  return array
+}
