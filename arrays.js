@@ -13,3 +13,7 @@ function destructivelyAddElementToEndOfArray(array, element) {
  return array
 }
 
+function destructivelyAddElementToEndOfArray(array, element) {
+ array.unshift(element);
+ return array
+}
